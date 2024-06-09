@@ -21,7 +21,7 @@ export const BlogItem = props => {
             <div className='article-cover h-full'>
                 {/* 图片封面 */}
                 {showPageCover && (
-                    <div className="overflow-hidden mr-2 w-56 h-full">
+                    <div className="overflow-hidden mr-2 w-56 h-full rounded-lg">
                         <Link href={url} passHref legacyBehavior>
                             <LazyImage src={post?.pageCoverThumbnail} className='w-56 h-full object-cover object-center group-hover:scale-110 duration-500' />
                         </Link>
