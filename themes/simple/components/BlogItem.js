@@ -29,7 +29,7 @@ export const BlogItem = props => {
                 )}
             </div>
 
-            <article className='article-info'>
+            <article className='article-info p-5'>
 
                 <h2 className="mb-2">
                     <Link
