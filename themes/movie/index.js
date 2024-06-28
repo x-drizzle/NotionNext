@@ -81,7 +81,7 @@ const LayoutBase = props => {
               'relative mx-auto justify-center md:flex items-start py-8 px-2'
             }>
             {/* 内容 */}
-            <div className={`w-full ${fullWidth ? '' : ''} px-4`}>
+            <div className={`w-full ${fullWidth ? '' : ''} px-2`}>
               <Transition
                 show={!onLoading}
                 appear={true}
