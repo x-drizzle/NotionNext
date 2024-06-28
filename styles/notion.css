@@ -529,8 +529,8 @@ summary > .notion-h {
 
 .notion-full-width {
   --notion-max-width: calc(min(1920px, 98vw));
-  padding-left: calc(min(96px, 8vw));
-  padding-right: calc(min(96px, 8vw));
+  padding-left: calc(min(96px, 2vw));
+  padding-right: calc(min(96px, 2vw));
 }
 
 .notion-small-text {
